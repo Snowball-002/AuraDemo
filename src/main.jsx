@@ -7,7 +7,7 @@ import { ShopProvider } from './context/ShopContext'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/AuraDemo">
+    <BrowserRouter>
       <ShopProvider>
         <App />
       </ShopProvider>
